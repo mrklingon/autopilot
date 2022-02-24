@@ -27,6 +27,7 @@ function blast () {
     for (let index = 0; index < 4; index++) {
         keyboard.key("  ", KeyboardKeyEvent.Down)
         keyboard.key("  ", KeyboardKeyEvent.Up)
+        pause(100)
     }
     pixel.setColor(0x000000)
 }
